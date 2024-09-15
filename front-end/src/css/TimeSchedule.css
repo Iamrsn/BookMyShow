@@ -1,0 +1,12 @@
+.ts-heading{
+    width: 100%;
+    font-size: 22px;
+    color: black;
+}
+.ts-main-container{
+     display: flex;
+     margin-bottom: 20px;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+      color: black;
+}

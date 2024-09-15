@@ -1,0 +1,10 @@
+.form-check-label{
+     padding: 10px 15px;
+     font-size: 18px;
+     border: 2px solid rgb(10,10,10);
+     margin: 10px;
+}
+.text{
+    font-size: 17px;
+    text-align: center;
+}

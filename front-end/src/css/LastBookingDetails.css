@@ -1,0 +1,55 @@
+.last_booking_details_container{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 5px solid black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.last-booking-details-container-main{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+.last-booking-details-header{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: black;
+}
+.seats-container{
+    margin-bottom: 10px;
+}
+.seats-header{
+    font-size: 18px;
+    font-weight: 500 ;
+    margin-bottom: 5px;
+}
+.seats-container .seats{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.seat-value{
+    width: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(0,207,207);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.slot,.movie{
+    margin-bottom: 10px;
+    font-size: 10px ;
+    font-weight: 500 ;
+}
+.slot span,.movie span{
+    font-weight: 400;
+    font-size: 16px;
+}
