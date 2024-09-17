@@ -9,7 +9,7 @@ const Ticket = require("./schema")
 app.use(cors())
 app.use(express.json())
 connectDB()
-app.use("api",require("./routes"))
+app.use("/api",require("./routes"))
 
 app.listen(3000,()=>{
     console.log("App Is Listening ")

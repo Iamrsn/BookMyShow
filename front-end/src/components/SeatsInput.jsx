@@ -1,7 +1,7 @@
 import React from 'react'
 import "../css/SeatInput.css"
 
-function SeatsInput({key,text,noOfseat,changeNoOfseats}) {
+function SeatsInput({text,noOfseat,changeNoOfseats}) {
   const change_seats = (e)=> {
     changeNoOfseats({...noOfseat,[e.target.name]:Number(e.target.value)})
     window.localStorage.setItem(
